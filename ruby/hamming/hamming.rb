@@ -2,7 +2,6 @@ class Hamming
 
   def self.compute(strand1, strand2)
     zipped_strands = strand1.chars.zip(strand2.chars)
-    zipped_strands.flatten
     count(zipped_strands)
   end
 
@@ -16,6 +15,8 @@ class Hamming
     end
   end
 end
+
+Hamming.compute('AGAGACTTA', 'AAA')
 
 ## Original ##
 
