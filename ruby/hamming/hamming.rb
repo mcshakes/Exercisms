@@ -16,8 +16,6 @@ class Hamming
   end
 end
 
-Hamming.compute('AGAGACTTA', 'AAA')
-
 ## Original ##
 
 # def self.compute(strand1, strand2)
